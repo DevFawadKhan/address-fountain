@@ -26,7 +26,7 @@ const sponserLogos = [
 function Sponsers() {
   return (
     <>
-      <div className="bg-white w-full h-32 m-auto mt-40 rounded-xl pt-5 drop-shadow-2xl shadow-gray-200  lg:w-[75%] 2xl:w-[65%]">
+      <div className="bg-white w-full h-32 m-auto mt-10 rounded-xl pt-5 drop-shadow-2xl shadow-gray-200  lg:w-[75%] 2xl:w-[65%]">
         <LogoLoop
           logos={sponserLogos}
           speed={120}

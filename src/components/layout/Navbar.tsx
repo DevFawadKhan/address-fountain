@@ -33,9 +33,10 @@ export default function Navbar() {
   return (
     <>
       <header
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-4 ${
-          scrolled ? "bg-white/90 backdrop-blur-md shadow-md" : "bg-transparent"
-        }`}
+        // className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-4 ${
+        //   scrolled ? "bg-white/90 backdrop-blur-md shadow-md" : "bg-transparent"
+        // }`}
+        className="fixed top-0 left-0 right-0 z-50 py-4 bg-white shadow-md"
       >
         <div className="main-wrapper px-4 md:px-8 flex items-center justify-between">
           {/* --- 1. LOGO (LEFT) --- */}
@@ -67,7 +68,7 @@ export default function Navbar() {
                     <Link
                       href={link.href}
                       className={`
-                        flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 whitespace-nowrap
+                        flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-bold transition-all duration-200 whitespace-nowrap
                         ${
                           isActive
                             ? "bg-btn-navy text-white! shadow-md"
@@ -150,10 +151,8 @@ export default function Navbar() {
                 key={link.href}
                 href={link.href}
                 onClick={() => setIsMobileMenuOpen(false)}
-                className={`text-lg font-medium py-2 border-b border-gray-50 ${
-                  pathname === link.href
-                    ? "text-span-blue"
-                    : "text-gray-800"
+                className={`text-lg font-bold py-2 border-b border-gray-50 ${
+                  pathname === link.href ? "text-span-blue" : "text-gray-800"
                 }`}
               >
                 {link.label}
