@@ -16,7 +16,7 @@ const amenities = [
 
 const AmenitiesSection: React.FC = () => {
   return (
-    <section className="w-full bg-[#F5F5F5] py-16 xs:py-20 sm:py-24 md:py-28 lg:py-32">
+    <section className="w-full bg-[#F5F5F5] py-16 xs:py-20 sm:py-24 md:py-28 lg:py-32 mt-10 2xl:mt-44">
       <div className="w-full lg:w-[90%] 2xl:w-[75%] mx-auto px-4 xs:px-6 sm:px-8">
         {/* Header Section */}
         <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-12 xs:mb-14 sm:mb-16 md:mb-20 gap-6 lg:gap-12">

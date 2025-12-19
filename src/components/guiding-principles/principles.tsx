@@ -68,7 +68,7 @@ const GuidingPrinciples: React.FC = () => {
                 </div>
 
                 <div>
-                  <h6 className="!font-bold tracking-wide text-black">
+                  <h6 className="font-bold! tracking-wide text-black">
                     {item.title}
                   </h6>
                   <p className="text-sm text-black mt-1">{item.description}</p>

@@ -36,7 +36,7 @@ export const modernCardData: ModernCardProps[] = [
 function Modern() {
   return (
     <>
-      <section className="mt-40">
+      <section className=" lg:mt-40">
         <div className=" text-center space-y-4 ">
           <h1
             className="text-3xl! font-medium! text-black max-w-2xl m-auto lg:text-6xl!
