@@ -27,7 +27,7 @@
   --font-body: "Exo", sans-serif;
 
   /* Colors */
-  --color-white: #ffffff;
+  --color-white: #f9f9f9;
   --color-black: #000000;
   --color-span-blue: #0166a4;
   --color-btn-navy: #0a2050;
@@ -68,6 +68,7 @@ body {
   padding: 0;
   height: 100%;
   scroll-behavior: smooth;
+  background-color: var(--color-background);
 }
 
 body {
@@ -225,7 +226,7 @@ p {
 
 span {
   font-size: var(--span-size);
-  color: white;
+  color: var(--color-span-blue);
   font-weight: 500;
   display: inline-block;
 }
