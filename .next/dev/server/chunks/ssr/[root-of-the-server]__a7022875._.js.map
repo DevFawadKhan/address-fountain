@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///home/dev-basit-ali/Projects/address-fountain/src/app/rooms/page.tsx"],"sourcesContent":["import React from 'react'\n\nexport default function page() {\n  return (\n    <section className=\"py-20 relative overflow-hidden\">\n      <div className=\"main-wrapper px-4 sm:px-6 lg:px-8\">\n       <h1>Rooms</h1>\n        \n      </div>\n    </section>\n  )\n}\n"],"names":[],"mappings":";;;;;;AAEe,SAAS;IACtB,qBACE,8OAAC;QAAQ,WAAU;kBACjB,cAAA,8OAAC;YAAI,WAAU;sBACd,cAAA,8OAAC;0BAAG;;;;;;;;;;;;;;;;AAKX"}}]
-}
