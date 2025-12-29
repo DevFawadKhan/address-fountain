@@ -24,7 +24,7 @@ const ExclusiveTour = () => {
         <img
           src="/assets/exclusivebg/exclusivebg.png"
           alt="Exclusive Tour"
-          className="absolute inset-0 w-full h-full object-cover rounded-md"
+          className="absolute inset-0 w-full h-[500px]! lg:h-full! object-cover rounded-md"
         />
 
         {/* Overlay */}
@@ -37,8 +37,10 @@ const ExclusiveTour = () => {
               text-white!
               font-serif
               text-[25px]!
+              xs:text-[30px]!
               sm:text-3xl!
               lg:text-5xl!
+              2xl:text-[65px]!
               leading-tight
             "
           >
@@ -47,7 +49,7 @@ const ExclusiveTour = () => {
             Of Address Fountain
           </h1>
 
-          <p className="mt-5 text-white/80 text-xs! sm:text-base max-w-2xl mx-auto">
+          <p className="mt-5 text-white/80 text-xs! sm:text-base max-w-2xl mx-auto 2xl:text-lg!">
             Experience the essence of refined living as you explore Address
             Fountain in person where every corner reflects sophistication and
             serene luxury.

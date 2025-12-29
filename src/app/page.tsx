@@ -4,6 +4,9 @@ import GuidingPrinciples from "@/components/guiding-principles/principles";
 import AmenitiesSection from "@/components/amanitiesSection/page";
 import Modern from "@/components/modernliving/Modern";
 import SuitesSection from "@/components/suites/SuitesSection";
+import Gallery from "@/components/gallery-frames/Gallery";
+import ExclusiveTour from "@/components/exclusivetour/Exclusivetour";
+import Bouncecard from "@/components/bouncecard/Bouncecard";
 export default function Home() {
   return (
     <>
@@ -12,7 +15,10 @@ export default function Home() {
       <GuidingPrinciples />
       <Modern />
       <AmenitiesSection />
+      <Gallery />
+      <ExclusiveTour />
       <SuitesSection />
+      <Bouncecard />
     </>
   );
 }

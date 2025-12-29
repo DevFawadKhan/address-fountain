@@ -1,22 +1,21 @@
-import React from "react";
+"use client";
 import { motion, type Transition } from "framer-motion";
-import Image from "next/image";
 
 import ButtonSecondary from "@/components/ui/ButtonSecondary";
 
-const xLoop = {
-  animate: {
-    x: ["100%", "-100%"],
-    transition: {
-      x: {
-        repeat: Infinity,
-        repeatType: "loop",
-        duration: 30,
-        ease: "linear",
-      },
-    },
-  },
-};
+// const xLoop = {
+//   animate: {
+//     x: ["100%", "-100%"],
+//     transition: {
+//       x: {
+//         repeat: Infinity,
+//         repeatType: "loop",
+//         duration: 30,
+//         ease: "linear",
+//       },
+//     },
+//   },
+// };
 
 const floatY = (
   delay = 0
@@ -54,12 +53,12 @@ function Gallery() {
           {...floatY(0)}
           className="hidden flex-col lg:flex space-y-5 rounded-md"
         >
-          <Image
+          <img
             src="/assets/galleryframes/frame1.png"
             alt="frame1"
             className="w-full lg:w-[500px]! lg:h-[230px]! 2xl:h-[300px]! rounded-md"
           />
-          <Image
+          <img
             src="/assets/galleryframes/frame2.png"
             alt="frame2"
             className=" w-full lg:w-[500px]! lg:h-[230px]! 2xl:h-[300px]! rounded-md"
@@ -68,7 +67,7 @@ function Gallery() {
 
         {/* second */}
         <motion.div {...floatY(0.5)} className=" lg:mt-40">
-          <Image
+          <img
             alt="frame3"
             src="/assets/galleryframes/frame3.png"
             className="w-[1000px]! h-[220px]! rounded-md lg:w-[500px]! lg:h-[230px]! 2xl:h-[300px]!"
@@ -77,7 +76,7 @@ function Gallery() {
 
         {/* third */}
         <motion.div {...floatY(1)} className="mt-10 md:mt-14 lg:mt-72">
-          <Image
+          <img
             alt="frame4"
             src="/assets/galleryframes/frame4.png"
             className="w-[1000px]! h-[220px]! rounded-md lg:w-[500px]! lg:h-[230px]! 2xl:h-[300px]!"
@@ -86,7 +85,7 @@ function Gallery() {
 
         {/* fourth */}
         <motion.div {...floatY(1.5)} className=" mt-5 md:mt-2 lg:mt-52">
-          <Image
+          <img
             alt="frame5"
             src="/assets/galleryframes/frame5.png"
             className="w-[1000px]! h-[220px]! rounded-md lg:w-[500px]! lg:h-[230px]! 2xl:h-[300px]!"
@@ -95,7 +94,7 @@ function Gallery() {
 
         {/* fifth */}
         <motion.div {...floatY(2)} className="mt-10 md:mt-15 lg:mt-72">
-          <Image
+          <img
             alt="frame5"
             src="/assets/galleryframes/frame6.png"
             className="w-[1000px]! h-[220px]! rounded-md lg:w-[500px]! lg:h-[230px]! 2xl:h-[300px]!"
@@ -104,7 +103,7 @@ function Gallery() {
 
         {/* sixth */}
         <motion.div {...floatY(2.5)} className="lg:mt-44">
-          <Image
+          <img
             alt="frame7"
             src="/assets/galleryframes/frame7.png"
             className="w-[1000px]! h-[220px]! rounded-md lg:w-[500px]! lg:h-[230px]! 2xl:h-[300px]!"
@@ -116,12 +115,12 @@ function Gallery() {
           {...floatY(3)}
           className="hidden flex-col lg:flex space-y-5"
         >
-          <Image
+          <img
             alt="frame8"
             src="/assets/galleryframes/frame8.png"
             className="rounded-md lg:w-[500px]! lg:h-[230px]! 2xl:h-[300px]!"
           />
-          <Image
+          <img
             alt="frame9"
             src="/assets/galleryframes/frame9.png"
             className="rounded-md lg:w-[500px]! lg:h-[230px]! 2xl:h-[300px]!"
