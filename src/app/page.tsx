@@ -7,6 +7,7 @@ import SuitesSection from "@/components/suites/SuitesSection";
 import Gallery from "@/components/gallery-frames/Gallery";
 import ExclusiveTour from "@/components/exclusivetour/Exclusivetour";
 import Bouncecard from "@/components/bouncecard/Bouncecard";
+import ContactSection from "@/components/contact/contact";
 export default function Home() {
   return (
     <>
@@ -18,7 +19,8 @@ export default function Home() {
       <Gallery />
       <ExclusiveTour />
       <SuitesSection />
-      <Bouncecard />
+      {/* <Bouncecard /> */}
+      <ContactSection />
     </>
   );
 }
